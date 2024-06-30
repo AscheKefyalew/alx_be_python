@@ -8,4 +8,4 @@ match priority:
     case _ if time_bound == "yes" and priority == "medium":
         print("Reminder:", task, "is a", priority, "priority task that requires immediate attention today!")
     case _:
-        print("Note:", task, "is", priority, "priority" ".", "Consider completing it when you have free time.")
+        print("Note:", task, "is", priority, "priority task.", "Consider completing it when you have free time.")
