@@ -1,5 +1,3 @@
-# explore_datetime.py
-
 from datetime import datetime, timedelta
 
 def display_current_datetime():
